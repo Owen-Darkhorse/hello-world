@@ -1,8 +1,5 @@
 # hello-world
 repository practice
-
-Today is April 17th
-I am learning committing changes on Gitgub
 =======
-Master branch commits definitive changes to a project
+This is the 2nd attempt for pull requests
 

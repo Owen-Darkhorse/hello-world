@@ -1,6 +1,4 @@
 # hello-world
 
-
-That's good
-Move your tone around more
-
+yes
+九九归一

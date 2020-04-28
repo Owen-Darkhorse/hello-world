@@ -1,0 +1,78 @@
+	h2{color: grey;
+	   font-style: italic;
+	   font-size: 30px;}
+
+/* for main info*/
+	.profile-photo {
+		border-radius: 60%;
+		font-family: sans-serif;
+	}
+	.main-info{
+		display: flex;
+		justify-content: center;
+		margin-top: 30px;
+		align-items: center;
+		font-size: 1.5em;
+		font-family: Arial;
+		list-style: square;
+		}
+
+	
+/* for links */	
+	.links-block{
+	display: flex;
+	justify-content: space-around;
+	background-color: black;
+	font:normal;
+	font-size: 25px;
+	color:white;
+	text-align: center;
+	}
+		
+	.social-links li{
+	display: inline-block;
+	margin: 10px;
+	color: white;
+	}
+	
+	.social-links a:hover{
+	background-color: lightgrey;
+	color: purple;
+	}
+	
+	a:link {color: lightblue}			
+	a:visited {color: purple}
+	a:active {color: yellow}
+
+/* for email	 */
+	.email li{
+		color: purple;
+		list-style-position: outside;
+		list-style: none;
+	}
+	
+/*button*/	
+	.download button {
+		color : "white";
+		background-color : "black";
+		padding : 20px;
+		margin : 10px;
+		border-radius: 10px;
+		border-color: "grey";
+	}
+	.button:hover {
+		 background-color: #555555;
+		 color: white;}
+
+/* For media icons */			 
+#social-media {
+	display : none;
+			}
+
+/* For icons */
+
+.instagram-logo {
+		 path {fill: #000;};
+		 circle: #fff;
+		 .logo {fill: #333};
+				}

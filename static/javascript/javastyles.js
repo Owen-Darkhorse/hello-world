@@ -1,8 +1,8 @@
-/* let eventTarget = document.getElementById('name');
-eventTarget.onClick = newStyle; */
+let eventTarget = document.getElementById('name');
+eventTarget.onClick = newStyle;
 
 function newStyle() {
-  /* console.log("in function new style") */
+  console.log("in function new style")
   let color = '';
   let font = '';
   var element = document.getElementById('name');

@@ -2,12 +2,12 @@ let eventTarget = document.getElementById('name');
 eventTarget.onClick = newStyle;
 
 function newStyle() {
-  console.log("in function new style")
+  console.log("in function new style");
   let color = '';
   let font = '';
   var element = document.getElementById('name');
-  element.style.color = "blue";
-  element.style.fontFamily = "Arial";
+  element.style.color = "lightgrey";
+  element.style.fontFamily = "calibri";
 			}
 			
 			
@@ -33,8 +33,9 @@ function moreLinks(){
 	let Stack_Overflow = document.createElement('li');
 	Stack_Overflow.innerHTML = "<a href='https://stackoverflow.com/users/12638805/owen-darkhorse'>Stack Overflow</a>";
 	
-	document.getElementById('social media').appendChild(GitHub);
-	document.getElementById('social media').appendChild(Stack_Overflow);
+	
+	document.getElementById('more contacts').appendChild(GitHub);
+	document.getElementById('more contacts').appendChild(Stack_Overflow);
 	
 	let text = document.getElementById('more links');
 	document.getElementById('Contacts').removeChild(text);
